@@ -1,4 +1,4 @@
-namespace ReactNativeFileViewer
+namespace RNFileViewer
 {
     [webhosthidden]
     [default_interface]
