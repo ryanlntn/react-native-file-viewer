@@ -7,8 +7,8 @@
     <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
     <MinimalCoreWin>true</MinimalCoreWin>
     <ProjectGuid>{56338316-588a-4e60-bc71-dc05fc166787}</ProjectGuid>
-    <ProjectName>ReactNativeFileViewer</ProjectName>
-    <RootNamespace>ReactNativeFileViewer</RootNamespace>
+    <ProjectName>RNFileViewer</ProjectName>
+    <RootNamespace>RNFileViewer</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
@@ -98,7 +98,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <ModuleDefinitionFile>ReactNativeFileViewer.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>RNFileViewer.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">

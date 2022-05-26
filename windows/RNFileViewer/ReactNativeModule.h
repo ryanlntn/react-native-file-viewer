@@ -13,10 +13,10 @@ using namespace Windows::Foundation;
 using namespace winrt::Microsoft::ReactNative;
 using namespace winrt::Windows::Storage;
 
-namespace winrt::ReactNativeFileViewer
+namespace winrt::RNFileViewer
 {
 
-REACT_MODULE(ReactNativeModule, L"ReactNativeFileViewer")
+REACT_MODULE(ReactNativeModule, L"RNFileViewer")
 struct ReactNativeModule
 {
     // See https://microsoft.github.io/react-native-windows/docs/native-modules for details on writing native modules
@@ -72,4 +72,4 @@ struct ReactNativeModule
         }
 };
 
-} // namespace winrt::ReactNativeFileViewer
+} // namespace winrt::RNFileViewer
